@@ -877,11 +877,19 @@ The decoding attributing on images gives authors control over when the browser s
 Value can be set in `system.images.defaults.decoding` as default value, or per md image with `?decoding=async`
 When value `auto` is chosen, no `decoding` attribute is added and browser will determine which strategy to use.
 
-{# Using default value as defined in 'config.system.images.defaults.decoding' #}
+######  Using default value as defined in `config.system.images.defaults.decoding`
+{% verbatim %}
+```twig
 {{ page.media['sample-image.jpg'].decoding.html('Sample Image')|raw }}
+```
+{% endverbatim %}
 
-{# Using explicit value #}
+###### Using explicit value
+{% verbatim %}
+```twig
 {{ page.media['sample-image.jpg'].decoding('async').html('Sample Image')|raw }}
+```
+{% endverbatim %}
 
 [ui-tabs]
 [ui-tab title="Markdown"]
