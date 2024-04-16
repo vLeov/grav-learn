@@ -1051,7 +1051,7 @@ tabs:
 
 ### Tel Field
 
-The `tel` field type is used to present a text input field that accepts a phone number, using the [tel HTML5 input](http://html5doctor.com/html5-forms-input-types/#input-tel).
+The `tel` field type is used to present a text input field that accepts a  number, using the [tel HTML5 input](http://html5doctor.com/html5-forms-input-types/#input-tel).
 
 Example:
 [prism classes="language-yaml line-numbers"]
@@ -1247,9 +1247,9 @@ The `url` field type is used to present a text input field that accepts an URL, 
 
 Example:
 [prism classes="language-yaml line-numbers"]
-header.phone:
+header.url:
   type: url
-  label: 'Your Phone Number'
+  label: 'Your Website Url'
 [/prism]
 
 [div class="table table-keycol"]
