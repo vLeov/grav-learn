@@ -33,18 +33,22 @@ $ cp user/plugins/flex-objects/data/flex-objects/contacts.json user/data/flex-ob
 
 Go to **[Pages](/admin-panel/page)** and [add a new page](/admin-panel/page#adding-new-pages). Enter following values:
 
-- **Page Title**: `Flex-Objects`
+- **Page Title**: `Directory`
 - **Page Template**: `Flex-objects`
 
 After this you can click on **Continue** button.
 
-In the **[Content Editor](/advanced/flex/administration/views-edit)** enter directory and add content:
+In the **[Advanced Content Editor](/advanced/flex/administration/views-edit)** ensure your frontmatter contains the `flex.directory` of  `contacts` as follows:
 
-- **Flex Directory**: `Contacts`
-- **Content**:
-    [prism classes="language-twig"]
-    # Directory Example
-    [/prism]
+```twig
+---
+title: Directory
+flex:
+  directory: contacts
+---
+
+# Directory Example
+```
 
 When you are happy with the page, hit **Save**.
 
