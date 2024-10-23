@@ -36,6 +36,7 @@ Even though technically you do not need a standalone web server, it is better to
 * MacOS 10.14 Mojave already ships with the Apache Web server and PHP 7.1, so job done!
 * [MAMP/MAMP Pro](https://www.mamp.info/en/mac/) comes with Apache, MySQL and of course PHP. It is a great way to get more control over which version of PHP you are running, setting up virtual hosts, plus other useful features such as automatically handling dynamic DNS.
 * [AMPPS](https://www.ampps.com/downloads) is a software stack from Softaculous enabling Apache, PHP, Perl, Python,.. This includes everything you need (and more) for GRAV development.
+* [DDEV](https://ddev.com/) for docker-based PHP development environments.
 * [Brew Apache/PHP](https://getgrav.org/blog/macos-mojave-apache-multiple-php-versions) is an alternative approach that allows a fully configurable installation with various PHP versions.
 
 ### Windows
@@ -45,6 +46,7 @@ Even though technically you do not need a standalone web server, it is better to
 * [EasyPHP](https://www.easyphp.org/) provides a personal Web hosting package as well as a more powerful developer version.
 * [MAMP for Windows](https://www.mamp.info/en/windows/) is a long-time Mac favorite, but now available for Windows.
 * [IIS with PHP](https://php.iis.net/) is a fast way to run PHP on Windows.
+* [DDEV](https://ddev.com/) for docker-based PHP development environments.
 * [AMPPS](https://www.ampps.com/downloads) is a software stack from Softaculous enabling Apache, PHP, Perl, Python,.. This includes everything you need (and more) for GRAV development.
 * [Linux Subsystem](https://medium.freecodecamp.org/setup-a-php-development-environment-on-windows-subsystem-for-linux-wsl-9193ff28ae83) is a great way to Run a linux-like environment on Windows
 
